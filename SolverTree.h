@@ -134,6 +134,7 @@ public:
     float getResult(){
         return solution;
     }
+    // Solo faltaría tener un destructor para liberar la memoria una vez se termina de usar el solver
 };
 
 #endif //PROBLEMA_SOLVERTREE_H
